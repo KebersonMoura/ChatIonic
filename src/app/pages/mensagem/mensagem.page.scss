@@ -1,0 +1,101 @@
+.chat {
+    height: 100%;
+}
+
+.conteudo {
+    width: 100%;
+    height: 90%;
+}
+.footer {
+    height: 10%;
+    background-color: #018ac1;
+    padding: 2%;
+    color: white;
+}
+
+.input-messenger {
+    border: solid 0px rebeccapurple;
+    border-radius: 5px;
+    background-color:white;
+    color: silver;
+}
+
+.div-content {
+    width: 100%;
+    border: solid 0px red;
+    height: auto;
+    padding: 25px;
+}
+
+
+/* Chat containers */
+.container {
+    border: 0px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+    font-size: 12px;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+    font-size: 12px;
+  }
+
+  p {
+      font-size: 14px;
+  }
+
+  /* Footer barra me mensagem e botão de envio */
+
+  .div-footer {
+      width: 80%;
+      display: inline-block;
+      border: solid 0px red;
+      float:left;
+  }
+  .div-footer-icon {
+      width: 20%;
+      display: inline-block;
+      border: solid 0px blue;
+      margin-top: top;
+      float:left;
+}

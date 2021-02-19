@@ -19,16 +19,23 @@ ion-fab-button {
   --background: #abdbe3;
 }
 
-.text-status-off-line {
-  background:#ff0000;
-  padding: 5px;
-  color: white;
+/* Criando Divs */
 
+ion-tab-button.style-button {
+  --color-selected: white;
+  background-color: #018ac1;
+  color: white;
 }
 
-.text-status-on-line {
-  background:#2e8b57;
-  padding: 5px;
-  color: white;
-
+ion-tab-bar.bg {
+  background-color: #018ac1;
 }
+
+/* Mudança de Fonte */
+
+.custom-font {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
